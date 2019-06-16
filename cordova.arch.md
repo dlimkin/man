@@ -22,7 +22,7 @@ yaourt --noconfirm android-sdk-build-tools
 
 ## 4. Create global variables on system
 
-On `~/.bashrc`
+`nano ~/.bashrc`
 ```
 export ANDROID_SDK_ROOT=/opt/android-sdk
 export ANDROID_HOME=$ANDROID_SDK_ROOT
@@ -30,8 +30,10 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 
-## 3. Restart your console and you are **ready to go.**
+Apply Config
+    source ~/.bashrc
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODQ1MjgzNCwxMTQ2Mzg3MTE3LDExMT
+eyJoaXN0b3J5IjpbLTg2Mjk4MTk4OCwxMTQ2Mzg3MTE3LDExMT
 IxMjExMTNdfQ==
 -->
