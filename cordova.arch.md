@@ -14,6 +14,8 @@ yaourt --noconfirm android-udev
 yaourt --noconfirm android-sdk
 yaourt --noconfirm android-sdk-platform-tools
 yaourt --noconfirm android-sdk-build-tools
+
+sudo chown -R <user>:<group> /opt/android-sdk/
 ```
 ## 2. Create global variables on system
 
@@ -27,6 +29,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 ## 3. Restart your console and you are **ready to go.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEyNzYxODAsMTE0NjM4NzExNywxMT
-EyMTIxMTEzXX0=
+eyJoaXN0b3J5IjpbNTE5NDU5MTE5LDExNDYzODcxMTcsMTExMj
+EyMTExM119
 -->
