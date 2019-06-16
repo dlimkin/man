@@ -19,6 +19,7 @@ yaourt --noconfirm android-sdk-build-tools
 ## 3. Accept Android SDK Licence
 
     sudo chown -R <user>:<group> /opt/android-sdk
+    
 
 ## 4. Create global variables on system
 
@@ -29,11 +30,10 @@ export ANDROID_HOME=$ANDROID_SDK_ROOT
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
-
-Apply Config
+## 5. Apply Changes
     source ~/.bashrc
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mjk4MTk4OCwxMTQ2Mzg3MTE3LDExMT
+eyJoaXN0b3J5IjpbLTcxMDU4MzQzNiwxMTQ2Mzg3MTE3LDExMT
 IxMjExMTNdfQ==
 -->
