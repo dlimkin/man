@@ -3,22 +3,23 @@
 
 ## 1. Install Cordova and
 
-    npm install -g cordova
-    yaourt --noconfirm gradle
+    $ sudo npm install -g cordova
+    $ yaourt --noconfirm gradle
   
 ## 2. Install JAVA and Android SDK 
 ```
-yaourt --noconfirm jdk8-openjdk
+$ yaourt --noconfirm jdk8-openjdk
 
-yaourt --noconfirm android-udev
-yaourt --noconfirm android-sdk
-yaourt --noconfirm android-sdk-platform-tools
-yaourt --noconfirm android-sdk-build-tools
+$ yaourt --noconfirm android-udev
+$ yaourt --noconfirm android-sdk
+$ yaourt --noconfirm android-sdk-platform-tools
+$ yaourt --noconfirm android-sdk-build-tools
 ```
 
 ## 3. Accept Android SDK Licence
 
-    sudo chown -R <user>:<group> /opt/android-sdk
+    $ sudo chown -R <user>:<group> /opt/android-sdk
+    $ /opt/android-sdk/tools/bin/sdkmanager --licenses
     
 
 ## 4. Create global variables on system
@@ -34,6 +35,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
     source ~/.bashrc
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDU4MzQzNiwxMTQ2Mzg3MTE3LDExMT
-IxMjExMTNdfQ==
+eyJoaXN0b3J5IjpbOTMzNzUwMjI2LDExNDYzODcxMTcsMTExMj
+EyMTExM119
 -->
