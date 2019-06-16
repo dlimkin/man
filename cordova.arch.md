@@ -19,13 +19,14 @@ yaourt --noconfirm android-sdk-build-tools
 
 On `~/.bashrc`
 ```
-
-export ANDROID_HOME=/opt/android-sdk
+export ANDROID_SDK_ROOT=/opt/android-sdk
+export ANDROID_HOME=$ANDROID_SDK_ROOT
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 
 ## 3. Restart your console and you are **ready to go.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjM4NzExNywxMTEyMTIxMTEzXX0=
+eyJoaXN0b3J5IjpbLTE0MjEyNzYxODAsMTE0NjM4NzExNywxMT
+EyMTIxMTEzXX0=
 -->
