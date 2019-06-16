@@ -1,7 +1,7 @@
 
 # Install Cordova and Android SDK on Arch Linux
 
-## 1. Install Cordova and
+## 1. Install Cordova and Gradle
 
     $ sudo npm install -g cordova
     $ yaourt --noconfirm gradle
@@ -35,6 +35,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
     $ source ~/.bashrc
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTI2OTA4MiwxMTQ2Mzg3MTE3LDExMT
+eyJoaXN0b3J5IjpbMTQ1OTY0NjIwNSwxMTQ2Mzg3MTE3LDExMT
 IxMjExMTNdfQ==
 -->
